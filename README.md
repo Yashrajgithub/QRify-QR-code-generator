@@ -10,6 +10,10 @@ QRify is a fast and user-friendly QR Code generator that allows you to create, d
 - **Responsive Design**: Fully responsive, works seamlessly on both desktop and mobile.
 - **Simple & Elegant UI**: Clean, modern design for an optimal user experience.
 
+## Live Demo
+
+You can try out the live demo of QRify here: [QRify Live Demo](https://yashrajgithub.github.io/QRify-QR-code-generator/)
+
 ## How to Use
 
 1. Open the application in your browser.
