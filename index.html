@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neon QR Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="toggle-wrapper">
+    <label class="switch">
+      <input type="checkbox" id="themeToggle">
+      <span class="slider"></span>
+    </label>
+    <span class="mode-label" id="modeLabel">Dark Mode</span>
+  </div>
+
+  <main class="glass-card">
+    <h1>✨ QR Code Generator</h1>
+    <p>Type something to generate your QR</p>
+    <input type="text" id="qrText" placeholder="Enter URL or text..." />
+    <div id="imgBox">
+      <img id="qrImage" src="" alt="QR Code" />
+    </div>
+    <button id="downloadBtn" disabled>Download</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
